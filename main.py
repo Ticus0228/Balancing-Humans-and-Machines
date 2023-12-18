@@ -6,7 +6,7 @@ from tools import astimate_acc1, astimate_acc2
 human_list = ['human0']
 
 # select from 'alexnet', 'densenet161', 'googlenet', 'resnet152', 'vgg19'
-machine_list = ['alexnet', 'densenet161']
+machine_list = ['alexnet']
 
 # select from 80, 95, 110, 125
 noise_level= 125
