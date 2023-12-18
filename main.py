@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 from tools import astimate_acc1, astimate_acc2
 
-# select from 'human0~5'
+# select from human0~5
 human_list = ['human0']
 
-# select from 'alexnet', 'densenet161', 'googlenet', 'resnet152', 'vgg19'
+# select from alexnet, densenet161, googlenet, resnet152, vgg19
 machine_list = ['alexnet']
 
 # select from 80, 95, 110, 125
